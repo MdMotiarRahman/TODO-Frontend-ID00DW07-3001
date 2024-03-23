@@ -1,5 +1,5 @@
 import {Todos} from "./class/Todos.js"
-const BACKEND_URL = "http://localhost:3000"
+const BACKEND_URL = "https://todo-backend-id00dw07-3001.onrender.com"
 const todos = new Todos(BACKEND_URL)
 const list = document.querySelector('ul');
 const input = document.querySelector('input');
